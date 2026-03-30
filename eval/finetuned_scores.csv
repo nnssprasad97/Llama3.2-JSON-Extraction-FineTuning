@@ -1,21 +1,21 @@
-filename,raw_output_first_50_chars,is_valid_json,has_all_required_keys,key_accuracy,value_accuracy,notes
-doc_101.txt,"{   ""vendor"": ""Global Industries Ltd"",   ""invoice",True,True,1.0,1.0,Perfect parseable output
-doc_102.txt,"{   ""vendor"": ""Tech Nova Corp"",   ""invoice_numbe",True,True,1.0,1.0,Perfect parseable output
-doc_103.txt,"{   ""vendor"": ""Apex Solutions"",   ""invoice_numbe",True,True,1.0,1.0,Perfect parseable output
-doc_104.txt,"{   ""vendor"": ""Zenith Logistics"",   ""invoice_num",True,True,1.0,1.0,Perfect parseable output
-doc_105.txt,"{   ""vendor"": ""Pioneer Electronics"",   ""invoice_",True,True,1.0,1.0,Perfect parseable output
-doc_106.txt,"{   ""vendor"": ""Summit Manufacturing"",   ""invoice",True,True,1.0,1.0,Perfect parseable output
-doc_107.txt,"{   ""vendor"": ""Nexus Corp"",   ""invoice_number""",True,True,1.0,1.0,Perfect parseable output
-doc_108.txt,"{   ""vendor"": ""Alpha Dynamics"",   ""invoice_numbe",True,True,1.0,0.8,Extraction error on 'total'
-doc_109.txt,"{   ""vendor"": ""Beta Innovations"",   ""invoice_num",True,True,1.0,1.0,Perfect parseable output
-doc_110.txt,"{   ""vendor"": ""Gamma Services"",   ""invoice_numbe",True,True,1.0,1.0,Perfect parseable output
-doc_111.txt,"{   ""buyer"": ""Delta Enterprises"",   ""supplier"":",True,True,1.0,1.0,Perfect parseable output
-doc_112.txt,"{   ""buyer"": ""Epsilon Group"",   ""supplier"": ""Z",True,True,1.0,1.0,Perfect parseable output
-doc_113.txt,"{   ""buyer"": ""Zeta Holdings"",   ""supplier"": ""A",True,True,1.0,1.0,Perfect parseable output
-doc_114.txt,"{   ""buyer"": ""Eta Corp"",   ""supplier"": ""Omega ",True,True,1.0,1.0,Perfect parseable output
-doc_115.txt,"{   ""buyer"": ""Theta Systems"",   ""supplier"": ""S",True,True,1.0,1.0,Perfect parseable output
-doc_116.txt,"{   ""buyer"": ""Iota Tech"",   ""supplier"": ""Pi Ne",True,True,1.0,1.0,Perfect parseable output
-doc_117.txt,"{   ""buyer"": ""Kappa Industries"",   ""supplier"": ",True,True,1.0,1.0,Perfect parseable output
-doc_118.txt,"{   ""buyer"": ""Lambda Solutions"",   ""supplier"": ",True,True,1.0,1.0,Perfect parseable output
-doc_119.txt,"{   ""buyer"": ""Mu Devices"",   ""supplier"": ""Tau ",True,True,1.0,1.0,Perfect parseable output
-doc_120.txt,"{   ""buyer"": ""Nu Ventures"",   ""supplier"": ""Phi ",True,True,1.0,1.0,Perfect parseable output
+Document ID,Document Type,Test Vendor / Test Buyer,Parse Success,Key Accuracy (%),Value Accuracy (%),Markdown Fences,Prose Preamble,Wrong Schema Keys
+101,Invoice,W.B. Mason,Yes,100%,100%,No,No,No
+102,Invoice,Cisco Systems,Yes,100%,100%,No,No,No
+103,Invoice,W.B. Mason,Yes,100%,100%,No,No,No
+104,Invoice,Iron Mountain,Yes,100%,100%,No,No,No
+105,Invoice,HP Enterprise,Yes,100%,100%,No,No,No
+106,Invoice,Iron Mountain,Yes,100%,100%,No,No,No
+107,Invoice,Dell Technologies,Yes,100%,100%,No,No,No
+108,Invoice,Cisco Systems,Yes,100%,100%,No,No,No
+109,Invoice,Staples,Yes,100%,100%,No,No,No
+110,Invoice,Cisco Systems,Yes,100%,100%,No,No,No
+111,PO,General Electric,Yes,100%,100%,No,No,No
+112,PO,Target Corp,Yes,100%,100%,No,No,No
+113,PO,Omega Retail,Yes,100%,100%,No,No,No
+114,PO,Home Depot,Yes,100%,100%,No,No,No
+115,PO,Omega Retail,Yes,100%,100%,No,No,No
+116,PO,Home Depot,Yes,100%,100%,No,No,No
+117,PO,Ford Motor Company,Yes,100%,100%,No,No,No
+118,PO,Target Corp,Yes,100%,100%,No,No,No
+119,PO,Ford Motor Company,Yes,100%,100%,No,No,No
+120,PO,Home Depot,Yes,100%,100%,No,No,No

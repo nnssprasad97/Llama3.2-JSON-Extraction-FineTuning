@@ -4,19 +4,24 @@
 
 **Response:**
 {
-  "vendor": "Nexus Dynamics",
-  "invoice_number": "T-INV-101",
+  "vendor": "W.B. Mason",
+  "invoice_number": "INV-T101",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 168.76,
+  "subtotal": 1009.97,
   "tax": null,
-  "total": 168.76,
+  "total": 1009.97,
   "line_items": [
     {
-      "description": "Cloud hosting",
+      "description": "A4 Paper Ream 500 sheets",
       "quantity": 2,
-      "unit_price": 84.38
+      "unit_price": 403.24
+    },
+    {
+      "description": "Dell XPS 15",
+      "quantity": 5,
+      "unit_price": 40.7
     }
   ]
 }
@@ -27,19 +32,24 @@
 
 **Response:**
 {
-  "vendor": "Pioneer Systems",
-  "invoice_number": "T-INV-102",
+  "vendor": "Cisco Systems",
+  "invoice_number": "INV-T102",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 634.8,
+  "subtotal": 1310.4,
   "tax": null,
-  "total": 634.8,
+  "total": 1310.4,
   "line_items": [
     {
-      "description": "Hardware supply",
-      "quantity": 4,
-      "unit_price": 158.7
+      "description": "Printer Ink Cartridge HP 305",
+      "quantity": 2,
+      "unit_price": 560.98
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 5,
+      "unit_price": 37.69
     }
   ]
 }
@@ -50,19 +60,24 @@
 
 **Response:**
 {
-  "vendor": "Alpha Innovations",
-  "invoice_number": "T-INV-103",
+  "vendor": "W.B. Mason",
+  "invoice_number": "INV-T103",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 657.52,
+  "subtotal": 1563.75,
   "tax": null,
-  "total": 657.52,
+  "total": 1563.75,
   "line_items": [
     {
-      "description": "Cloud hosting",
+      "description": "A4 Paper Ream 500 sheets",
       "quantity": 2,
-      "unit_price": 328.76
+      "unit_price": 670.98
+    },
+    {
+      "description": "Stapler HD-50",
+      "quantity": 5,
+      "unit_price": 44.36
     }
   ]
 }
@@ -73,19 +88,24 @@
 
 **Response:**
 {
-  "vendor": "Beta Tech",
-  "invoice_number": "T-INV-104",
+  "vendor": "Iron Mountain",
+  "invoice_number": "INV-T104",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 592.86,
+  "subtotal": 821.02,
   "tax": null,
-  "total": 592.86,
+  "total": 821.02,
   "line_items": [
     {
-      "description": "Data analysis",
+      "description": "A4 Paper Ream 500 sheets",
       "quantity": 2,
-      "unit_price": 296.43
+      "unit_price": 396.73
+    },
+    {
+      "description": "Dell XPS 15",
+      "quantity": 5,
+      "unit_price": 5.51
     }
   ]
 }
@@ -96,19 +116,24 @@
 
 **Response:**
 {
-  "vendor": "Gamma Enterprises",
-  "invoice_number": "T-INV-105",
+  "vendor": "HP Enterprise",
+  "invoice_number": "INV-T105",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 110.14,
+  "subtotal": 289.95,
   "tax": null,
-  "total": 110.14,
+  "total": 289.95,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 3,
-      "unit_price": 110.14
+      "description": "Server Rack 42U",
+      "quantity": 2,
+      "unit_price": 103.06
+    },
+    {
+      "description": "Printer Ink Cartridge HP 305",
+      "quantity": 5,
+      "unit_price": 16.76
     }
   ]
 }
@@ -119,19 +144,24 @@
 
 **Response:**
 {
-  "vendor": "Sigma Dist",
-  "invoice_number": "T-INV-106",
+  "vendor": "Iron Mountain",
+  "invoice_number": "INV-T106",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 285.47,
+  "subtotal": 717.31,
   "tax": null,
-  "total": 285.47,
+  "total": 717.31,
   "line_items": [
     {
-      "description": "Software license",
-      "quantity": 3,
-      "unit_price": 285.47
+      "description": "Paper Clips",
+      "quantity": 2,
+      "unit_price": 221.97
+    },
+    {
+      "description": "ThinkPad T14",
+      "quantity": 5,
+      "unit_price": 54.67
     }
   ]
 }
@@ -142,19 +172,24 @@
 
 **Response:**
 {
-  "vendor": "Omega Retail",
-  "invoice_number": "T-INV-107",
+  "vendor": "Dell Technologies",
+  "invoice_number": "INV-T107",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 1103.69,
+  "subtotal": 498.09,
   "tax": null,
-  "total": 1103.69,
+  "total": 498.09,
   "line_items": [
     {
-      "description": "Cloud hosting",
-      "quantity": 7,
-      "unit_price": 157.67
+      "description": "Printer Ink Cartridge HP 305",
+      "quantity": 2,
+      "unit_price": 131.12
+    },
+    {
+      "description": "Dell XPS 15",
+      "quantity": 5,
+      "unit_price": 47.17
     }
   ]
 }
@@ -165,19 +200,24 @@
 
 **Response:**
 {
-  "vendor": "Acme Corp",
-  "invoice_number": "T-INV-108",
+  "vendor": "Cisco Systems",
+  "invoice_number": "INV-T108",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 1892.7,
+  "subtotal": 1015.77,
   "tax": null,
-  "total": 1892.7,
+  "total": 1015.77,
   "line_items": [
     {
-      "description": "Data analysis",
+      "description": "Paper Clips",
+      "quantity": 2,
+      "unit_price": 481.06
+    },
+    {
+      "description": "Ballpoint Pens (Box of 50)",
       "quantity": 5,
-      "unit_price": 378.54
+      "unit_price": 10.73
     }
   ]
 }
@@ -188,19 +228,24 @@
 
 **Response:**
 {
-  "vendor": "Tech Solutions",
-  "invoice_number": "T-INV-109",
+  "vendor": "Staples",
+  "invoice_number": "INV-T109",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 1010.4,
+  "subtotal": 631.95,
   "tax": null,
-  "total": 1010.4,
+  "total": 631.95,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 3,
-      "unit_price": 336.8
+      "description": "Server Rack 42U",
+      "quantity": 2,
+      "unit_price": 256.02
+    },
+    {
+      "description": "Logitech MX Master 3",
+      "quantity": 5,
+      "unit_price": 23.98
     }
   ]
 }
@@ -211,19 +256,24 @@
 
 **Response:**
 {
-  "vendor": "Global Logistics",
-  "invoice_number": "T-INV-110",
+  "vendor": "Cisco Systems",
+  "invoice_number": "INV-T110",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 666.5,
+  "subtotal": 1642.88,
   "tax": null,
-  "total": 666.5,
+  "total": 1642.88,
   "line_items": [
     {
-      "description": "Hardware supply",
+      "description": "Logitech MX Master 3",
+      "quantity": 2,
+      "unit_price": 693.05
+    },
+    {
+      "description": "Printer Ink Cartridge HP 305",
       "quantity": 5,
-      "unit_price": 133.3
+      "unit_price": 51.35
     }
   ]
 }
@@ -234,18 +284,23 @@
 
 **Response:**
 {
-  "buyer": "Kappa Commerce",
-  "supplier": "Beta Tech",
-  "po_number": "T-PO-111",
-  "date": "2024-03-26",
+  "buyer": "General Electric",
+  "supplier": "Dell Technologies",
+  "po_number": "PO-T111",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 742.14,
+  "currency": "EUR",
+  "total": 1191.14,
   "items": [
     {
-      "item_name": "Router",
-      "quantity": 3,
-      "unit_price": 247.38
+      "item_name": "A4 Paper Ream 500 sheets",
+      "quantity": 1,
+      "unit_price": 911.97
+    },
+    {
+      "item_name": "Cat6 Cable 50ft",
+      "quantity": 4,
+      "unit_price": 69.79
     }
   ]
 }
@@ -256,18 +311,23 @@
 
 **Response:**
 {
-  "buyer": "Nu Logistics",
-  "supplier": "Gamma Enterprises",
-  "po_number": "T-PO-112",
-  "date": "2024-03-26",
+  "buyer": "Target Corp",
+  "supplier": "Iron Mountain",
+  "po_number": "PO-T112",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 7279.09,
+  "currency": "EUR",
+  "total": 1465.02,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 7,
-      "unit_price": 1039.87
+      "item_name": "Printer Ink Cartridge HP 305",
+      "quantity": 1,
+      "unit_price": 1338.77
+    },
+    {
+      "item_name": "Sticky Notes 3x3",
+      "quantity": 4,
+      "unit_price": 31.56
     }
   ]
 }
@@ -278,18 +338,23 @@
 
 **Response:**
 {
-  "buyer": "Xi Corp",
-  "supplier": "Sigma Dist",
-  "po_number": "T-PO-113",
-  "date": "2024-03-26",
+  "buyer": "Omega Retail",
+  "supplier": "Grainger",
+  "po_number": "PO-T113",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 5984.88,
+  "currency": "EUR",
+  "total": 1293.74,
   "items": [
     {
-      "item_name": "Monitor",
-      "quantity": 6,
-      "unit_price": 997.48
+      "item_name": "Sticky Notes 3x3",
+      "quantity": 1,
+      "unit_price": 1249.44
+    },
+    {
+      "item_name": "UPS Battery Backup",
+      "quantity": 4,
+      "unit_price": 11.07
     }
   ]
 }
@@ -300,18 +365,23 @@
 
 **Response:**
 {
-  "buyer": "Tau Holdings",
-  "supplier": "Omega Retail",
-  "po_number": "T-PO-114",
-  "date": "2024-03-26",
+  "buyer": "Home Depot",
+  "supplier": "W.B. Mason",
+  "po_number": "PO-T114",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 6417.36,
+  "currency": "EUR",
+  "total": 1036.6,
   "items": [
     {
-      "item_name": "Office Desk",
-      "quantity": 9,
-      "unit_price": 713.04
+      "item_name": "UPS Battery Backup",
+      "quantity": 1,
+      "unit_price": 853.23
+    },
+    {
+      "item_name": "Paper Clips",
+      "quantity": 4,
+      "unit_price": 45.84
     }
   ]
 }
@@ -322,18 +392,23 @@
 
 **Response:**
 {
-  "buyer": "Rho Supplies",
-  "supplier": "Acme Corp",
-  "po_number": "T-PO-115",
-  "date": "2024-03-26",
+  "buyer": "Omega Retail",
+  "supplier": "Staples",
+  "po_number": "PO-T115",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 2188.92,
+  "currency": "EUR",
+  "total": 1134.6,
   "items": [
     {
-      "item_name": "Switch",
-      "quantity": 3,
-      "unit_price": 729.64
+      "item_name": "Stapler HD-50",
+      "quantity": 1,
+      "unit_price": 905.6
+    },
+    {
+      "item_name": "Ballpoint Pens (Box of 50)",
+      "quantity": 4,
+      "unit_price": 57.25
     }
   ]
 }
@@ -344,18 +419,23 @@
 
 **Response:**
 {
-  "buyer": "Pi Network",
-  "supplier": "Tech Solutions",
-  "po_number": "T-PO-116",
-  "date": "2024-03-26",
+  "buyer": "Home Depot",
+  "supplier": "W.B. Mason",
+  "po_number": "PO-T116",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 11876.92,
+  "currency": "EUR",
+  "total": 71.41,
   "items": [
     {
-      "item_name": "Office Desk",
-      "quantity": 11,
-      "unit_price": 1079.72
+      "item_name": "Server Rack 42U",
+      "quantity": 1,
+      "unit_price": 53.37
+    },
+    {
+      "item_name": "A4 Paper Ream 500 sheets",
+      "quantity": 4,
+      "unit_price": 4.51
     }
   ]
 }
@@ -366,18 +446,23 @@
 
 **Response:**
 {
-  "buyer": "Sigma Store",
-  "supplier": "Global Logistics",
-  "po_number": "T-PO-117",
-  "date": "2024-03-26",
+  "buyer": "Ford Motor Company",
+  "supplier": "Dell Technologies",
+  "po_number": "PO-T117",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 3870.9,
+  "currency": "EUR",
+  "total": 1157.82,
   "items": [
     {
-      "item_name": "Router",
-      "quantity": 11,
-      "unit_price": 351.9
+      "item_name": "Cat6 Cable 50ft",
+      "quantity": 1,
+      "unit_price": 1092.44
+    },
+    {
+      "item_name": "Server Rack 42U",
+      "quantity": 4,
+      "unit_price": 16.34
     }
   ]
 }
@@ -388,18 +473,23 @@
 
 **Response:**
 {
-  "buyer": "Cloud Nine",
-  "supplier": "Apex Software",
-  "po_number": "T-PO-118",
-  "date": "2024-03-26",
+  "buyer": "Target Corp",
+  "supplier": "Staples",
+  "po_number": "PO-T118",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 1688.66,
+  "currency": "EUR",
+  "total": 267.06,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 2,
-      "unit_price": 844.33
+      "item_name": "Ballpoint Pens (Box of 50)",
+      "quantity": 1,
+      "unit_price": 230.33
+    },
+    {
+      "item_name": "Server Rack 42U",
+      "quantity": 4,
+      "unit_price": 9.18
     }
   ]
 }
@@ -410,18 +500,23 @@
 
 **Response:**
 {
-  "buyer": "Bright Future",
-  "supplier": "Zenith Health",
-  "po_number": "T-PO-119",
-  "date": "2024-03-26",
+  "buyer": "Ford Motor Company",
+  "supplier": "Iron Mountain",
+  "po_number": "PO-T119",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 3144.24,
+  "currency": "EUR",
+  "total": 784.25,
   "items": [
     {
-      "item_name": "Router",
-      "quantity": 3,
-      "unit_price": 1048.08
+      "item_name": "Cat6 Cable 50ft",
+      "quantity": 1,
+      "unit_price": 671.51
+    },
+    {
+      "item_name": "UPS Battery Backup",
+      "quantity": 4,
+      "unit_price": 28.18
     }
   ]
 }
@@ -432,22 +527,26 @@
 
 **Response:**
 {
-  "buyer": "Delta Services",
-  "supplier": "Nexus Dynamics",
-  "po_number": "T-PO-120",
-  "date": "2024-03-26",
+  "buyer": "Home Depot",
+  "supplier": "Samsung Electronics",
+  "po_number": "PO-T120",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 3534.96,
+  "currency": "EUR",
+  "total": 745.13,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 8,
-      "unit_price": 441.87
+      "item_name": "A4 Paper Ream 500 sheets",
+      "quantity": 1,
+      "unit_price": 668.47
+    },
+    {
+      "item_name": "ThinkPad T14",
+      "quantity": 4,
+      "unit_price": 19.16
     }
   ]
 }
 
 ---
-
 

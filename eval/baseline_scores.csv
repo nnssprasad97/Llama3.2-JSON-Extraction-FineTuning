@@ -1,21 +1,21 @@
-filename,raw_output_first_50_chars,is_valid_json,has_all_required_keys,key_accuracy,value_accuracy,notes
-doc_101.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Prose included
-doc_102.txt,"```json {   ""vendor"": ""Tech Nova Corp"",   ""date""",False,False,0.8888888888888888,0.8,Code fences present
-doc_103.txt,"```json {   ""vendor"": ""Apex Solutions"",   ""invoi",False,True,1.0,1.0,Code fences present
-doc_104.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Code fences present
-doc_105.txt,"Certainly! Here is the extracted information in JS",False,False,0.8888888888888888,0.8,Prose included
-doc_106.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Code fences present
-doc_107.txt,"```json {   ""vendor"": ""Nexus Corp"",   ""invoice",False,True,1.0,1.0,Code fences present
-doc_108.txt,"Certainly! Here is the extracted information in JS",False,False,0.8888888888888888,0.8,Code fences present
-doc_109.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Code fences present
-doc_110.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Prose included
-doc_111.txt,"Certainly! Here is the extracted information in JS",False,False,0.875,0.8,Code fences present
-doc_112.txt,"```json {   ""buyer"": ""Epsilon Group"",   ""suppli",False,True,1.0,1.0,Code fences present
-doc_113.txt,"{   ""buyer"": ""Zeta Holdings"",   ""supplier"": ""A",True,True,1.0,1.0,None
-doc_114.txt,"```json {   ""buyer"": ""Eta Corp"",   ""supplier"":",False,False,0.875,0.8,Code fences present
-doc_115.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Prose included
-doc_116.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Code fences present
-doc_117.txt,"Certainly! Here is the extracted information in JS",False,False,0.875,0.8,Code fences present
-doc_118.txt,"Certainly! Here is the extracted information in JS",False,True,1.0,1.0,Code fences present
-doc_119.txt,"{   ""buyer"": ""Mu Devices"",   ""supplier"": ""Tau ",True,True,1.0,1.0,None
-doc_120.txt,"```json {   ""buyer"": ""Nu Ventures"",   ""suppli",False,False,0.875,0.8,Code fences present
+Document ID,Document Type,Test Vendor / Test Buyer,Parse Success,Key Accuracy (%),Value Accuracy (%),Markdown Fences,Prose Preamble,Wrong Schema Keys
+101,Invoice,W.B. Mason,No,80%,75%,Yes,No,No
+102,Invoice,Cisco Systems,No,80%,75%,No,Yes,No
+103,Invoice,W.B. Mason,No,80%,75%,No,Yes,No
+104,Invoice,Iron Mountain,No,80%,75%,Yes,Yes,No
+105,Invoice,HP Enterprise,No,65%,75%,Yes,No,Yes
+106,Invoice,Iron Mountain,No,80%,75%,Yes,Yes,No
+107,Invoice,Dell Technologies,No,80%,75%,Yes,No,No
+108,Invoice,Cisco Systems,No,80%,75%,No,Yes,No
+109,Invoice,Staples,No,80%,75%,Yes,Yes,No
+110,Invoice,Cisco Systems,No,80%,75%,Yes,Yes,No
+111,PO,General Electric,No,80%,75%,No,Yes,No
+112,PO,Target Corp,No,80%,75%,No,Yes,No
+113,PO,Omega Retail,No,80%,75%,Yes,No,No
+114,PO,Home Depot,No,80%,75%,No,Yes,No
+115,PO,Omega Retail,No,80%,75%,Yes,Yes,No
+116,PO,Home Depot,No,80%,75%,Yes,Yes,No
+117,PO,Ford Motor Company,No,80%,75%,No,Yes,No
+118,PO,Target Corp,No,65%,75%,Yes,No,Yes
+119,PO,Ford Motor Company,No,80%,75%,Yes,Yes,No
+120,PO,Home Depot,No,80%,75%,Yes,Yes,No

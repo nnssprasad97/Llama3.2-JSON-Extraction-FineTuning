@@ -2,199 +2,149 @@
 
 ### Document 101 (Invoice)
 
-**Input:**
-INVOICE
-From: Nexus Dynamics
-Num: T-INV-101
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
+```json
 {
-  "vendor": "Nexus Dynamics",
-  "invoice_number": "T-INV-101",
+  "vendor": "W.B. Mason",
+  "invoice_number": "INV-T101",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1009.97,
   "tax": null,
-  "total": 150.0,
+  "total": 1009.97,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "A4 Paper Ream 500 sheets",
+      "quantity": 2,
+      "unit_price": 403.24
+    },
+    {
+      "description": "Dell XPS 15",
+      "quantity": 5,
+      "unit_price": 40.7
     }
   ]
 }
+```
 
 ---
 
 ### Document 102 (Invoice)
 
-**Input:**
-INVOICE
-From: Pioneer Systems
-Num: T-INV-102
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-```json
+Certainly! I have extracted the fields:
+
 {
-  "vendor": "Pioneer Systems",
+  "vendor": "Cisco Systems",
+  "invoice_number": "INV-T102",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1310.4,
   "tax": null,
-  "total": 150.0,
+  "total": 1310.4,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Printer Ink Cartridge HP 305",
+      "quantity": 2,
+      "unit_price": 560.98
+    },
+    {
+      "description": "Whiteboard Markers",
+      "quantity": 5,
+      "unit_price": 37.69
     }
-  ],
-  "invoiceNo": "T-INV-102"
+  ]
 }
-```
 
 ---
 
 ### Document 103 (Invoice)
 
-**Input:**
-INVOICE
-From: Alpha Innovations
-Num: T-INV-103
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-```json
+Certainly! I have extracted the fields:
+
 {
-  "vendor": "Alpha Innovations",
-  "invoice_number": "T-INV-103",
+  "vendor": "W.B. Mason",
+  "invoice_number": "INV-T103",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1563.75,
   "tax": null,
-  "total": 150.0,
+  "total": 1563.75,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "A4 Paper Ream 500 sheets",
+      "quantity": 2,
+      "unit_price": 670.98
+    },
+    {
+      "description": "Stapler HD-50",
+      "quantity": 5,
+      "unit_price": 44.36
     }
   ]
 }
-```
 
 ---
 
 ### Document 104 (Invoice)
 
-**Input:**
-INVOICE
-From: Beta Tech
-Num: T-INV-104
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
+Here is the requested JSON format:
 ```json
 {
-  "vendor": "Beta Tech",
-  "invoice_number": "T-INV-104",
+  "vendor": "Iron Mountain",
+  "invoice_number": "INV-T104",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 821.02,
   "tax": null,
-  "total": 150.0,
+  "total": 821.02,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "A4 Paper Ream 500 sheets",
+      "quantity": 2,
+      "unit_price": 396.73
+    },
+    {
+      "description": "Dell XPS 15",
+      "quantity": 5,
+      "unit_price": 5.51
     }
   ]
 }
 ```
+Hope this helps!
 
 ---
 
 ### Document 105 (Invoice)
 
-**Input:**
-INVOICE
-From: Gamma Enterprises
-Num: T-INV-105
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
-{
-  "vendor": "Gamma Enterprises",
-  "date": "2024-03-26",
-  "due_date": null,
-  "currency": "USD",
-  "subtotal": 150.0,
-  "tax": null,
-  "total": 150.0,
-  "line_items": [
-    {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
-    }
-  ],
-  "invoiceNo": "T-INV-105"
-}
-
----
-
-### Document 106 (Invoice)
-
-**Input:**
-INVOICE
-From: Sigma Dist
-Num: T-INV-106
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
-**Response:**
-Certainly! Here is the extracted information in JSON format:
-
 ```json
 {
-  "vendor": "Sigma Dist",
-  "invoice_number": "T-INV-106",
+  "vendor": "HP Enterprise",
+  "invoice_number": "INV-T105",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "sub_total": 289.95,
   "tax": null,
-  "total": 150.0,
+  "total_amount": 289.95,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Server Rack 42U",
+      "quantity": 2,
+      "unit_price": 103.06
+    },
+    {
+      "description": "Printer Ink Cartridge HP 305",
+      "quantity": 5,
+      "unit_price": 16.76
     }
   ]
 }
@@ -202,32 +152,61 @@ Certainly! Here is the extracted information in JSON format:
 
 ---
 
-### Document 107 (Invoice)
+### Document 106 (Invoice)
 
-**Input:**
-INVOICE
-From: Omega Retail
-Num: T-INV-107
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
+**Response:**
+Here is the requested JSON format:
+```json
+{
+  "vendor": "Iron Mountain",
+  "invoice_number": "INV-T106",
+  "date": "2024-03-26",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 717.31,
+  "tax": null,
+  "total": 717.31,
+  "line_items": [
+    {
+      "description": "Paper Clips",
+      "quantity": 2,
+      "unit_price": 221.97
+    },
+    {
+      "description": "ThinkPad T14",
+      "quantity": 5,
+      "unit_price": 54.67
+    }
+  ]
+}
+```
+Hope this helps!
+
+---
+
+### Document 107 (Invoice)
 
 **Response:**
 ```json
 {
-  "vendor": "Omega Retail",
-  "invoice_number": "T-INV-107",
+  "vendor": "Dell Technologies",
+  "invoice_number": "INV-T107",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 498.09,
   "tax": null,
-  "total": 150.0,
+  "total": 498.09,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Printer Ink Cartridge HP 305",
+      "quantity": 2,
+      "unit_price": 131.12
+    },
+    {
+      "description": "Dell XPS 15",
+      "quantity": 5,
+      "unit_price": 47.17
     }
   ]
 }
@@ -237,370 +216,327 @@ Items: 1x Consulting service @ 150.00
 
 ### Document 108 (Invoice)
 
-**Input:**
-INVOICE
-From: Acme Corp
-Num: T-INV-108
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
+Certainly! I have extracted the fields:
 
-```json
 {
-  "vendor": "Acme Corp",
+  "vendor": "Cisco Systems",
+  "invoice_number": "INV-T108",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1015.77,
   "tax": null,
-  "total": 150.0,
+  "total": 1015.77,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Paper Clips",
+      "quantity": 2,
+      "unit_price": 481.06
+    },
+    {
+      "description": "Ballpoint Pens (Box of 50)",
+      "quantity": 5,
+      "unit_price": 10.73
     }
-  ],
-  "invoiceNo": "T-INV-108"
+  ]
 }
-```
 
 ---
 
 ### Document 109 (Invoice)
 
-**Input:**
-INVOICE
-From: Tech Solutions
-Num: T-INV-109
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
+Here is the requested JSON format:
 ```json
 {
-  "vendor": "Tech Solutions",
-  "invoice_number": "T-INV-109",
+  "vendor": "Staples",
+  "invoice_number": "INV-T109",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 631.95,
   "tax": null,
-  "total": 150.0,
+  "total": 631.95,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Server Rack 42U",
+      "quantity": 2,
+      "unit_price": 256.02
+    },
+    {
+      "description": "Logitech MX Master 3",
+      "quantity": 5,
+      "unit_price": 23.98
     }
   ]
 }
 ```
+Hope this helps!
 
 ---
 
 ### Document 110 (Invoice)
 
-**Input:**
-INVOICE
-From: Global Logistics
-Num: T-INV-110
-Date: 2024-03-26
-Total: 150.00 USD
-Items: 1x Consulting service @ 150.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
+Here is the requested JSON format:
+```json
 {
-  "vendor": "Global Logistics",
-  "invoice_number": "T-INV-110",
+  "vendor": "Cisco Systems",
+  "invoice_number": "INV-T110",
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1642.88,
   "tax": null,
-  "total": 150.0,
+  "total": 1642.88,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Logitech MX Master 3",
+      "quantity": 2,
+      "unit_price": 693.05
+    },
+    {
+      "description": "Printer Ink Cartridge HP 305",
+      "quantity": 5,
+      "unit_price": 51.35
     }
   ]
 }
+```
+Hope this helps!
 
 ---
 
 ### Document 111 (PO)
 
-**Input:**
-PO Request
-To: Beta Tech
-From: Kappa Commerce
-ID: T-PO-111
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
+Certainly! I have extracted the fields:
 
-```json
 {
-  "buyer": "Kappa Commerce",
-  "supplier": "Beta Tech",
-  "date": "2024-03-26",
+  "buyer": "General Electric",
+  "supplier": "Dell Technologies",
+  "po_number": "PO-T111",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 1191.14,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "A4 Paper Ream 500 sheets",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 911.97
+    },
+    {
+      "item_name": "Cat6 Cable 50ft",
+      "quantity": 4,
+      "unit_price": 69.79
     }
-  ],
-  "PO_Number": "T-PO-111"
+  ]
 }
-```
 
 ---
 
 ### Document 112 (PO)
 
-**Input:**
-PO Request
-To: Gamma Enterprises
-From: Nu Logistics
-ID: T-PO-112
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
-```json
+Certainly! I have extracted the fields:
+
 {
-  "buyer": "Nu Logistics",
-  "supplier": "Gamma Enterprises",
-  "po_number": "T-PO-112",
-  "date": "2024-03-26",
+  "buyer": "Target Corp",
+  "supplier": "Iron Mountain",
+  "po_number": "PO-T112",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 1465.02,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "Printer Ink Cartridge HP 305",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 1338.77
+    },
+    {
+      "item_name": "Sticky Notes 3x3",
+      "quantity": 4,
+      "unit_price": 31.56
     }
   ]
 }
-```
 
 ---
 
 ### Document 113 (PO)
 
-**Input:**
-PO Request
-To: Sigma Dist
-From: Xi Corp
-ID: T-PO-113
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
+```json
 {
-  "buyer": "Xi Corp",
-  "supplier": "Sigma Dist",
-  "po_number": "T-PO-113",
-  "date": "2024-03-26",
+  "buyer": "Omega Retail",
+  "supplier": "Grainger",
+  "po_number": "PO-T113",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 1293.74,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "Sticky Notes 3x3",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 1249.44
+    },
+    {
+      "item_name": "UPS Battery Backup",
+      "quantity": 4,
+      "unit_price": 11.07
     }
   ]
 }
+```
 
 ---
 
 ### Document 114 (PO)
 
-**Input:**
-PO Request
-To: Omega Retail
-From: Tau Holdings
-ID: T-PO-114
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
-```json
+Certainly! I have extracted the fields:
+
 {
-  "buyer": "Tau Holdings",
-  "supplier": "Omega Retail",
-  "date": "2024-03-26",
+  "buyer": "Home Depot",
+  "supplier": "W.B. Mason",
+  "po_number": "PO-T114",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 1036.6,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "UPS Battery Backup",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 853.23
+    },
+    {
+      "item_name": "Paper Clips",
+      "quantity": 4,
+      "unit_price": 45.84
     }
-  ],
-  "PO_Number": "T-PO-114"
+  ]
 }
-```
 
 ---
 
 ### Document 115 (PO)
 
-**Input:**
-PO Request
-To: Acme Corp
-From: Rho Supplies
-ID: T-PO-115
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
+Here is the requested JSON format:
+```json
 {
-  "buyer": "Rho Supplies",
-  "supplier": "Acme Corp",
-  "po_number": "T-PO-115",
-  "date": "2024-03-26",
+  "buyer": "Omega Retail",
+  "supplier": "Staples",
+  "po_number": "PO-T115",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 1134.6,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "Stapler HD-50",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 905.6
+    },
+    {
+      "item_name": "Ballpoint Pens (Box of 50)",
+      "quantity": 4,
+      "unit_price": 57.25
     }
   ]
 }
+```
+Hope this helps!
 
 ---
 
 ### Document 116 (PO)
 
-**Input:**
-PO Request
-To: Tech Solutions
-From: Pi Network
-ID: T-PO-116
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
+Here is the requested JSON format:
 ```json
 {
-  "buyer": "Pi Network",
-  "supplier": "Tech Solutions",
-  "po_number": "T-PO-116",
-  "date": "2024-03-26",
+  "buyer": "Home Depot",
+  "supplier": "W.B. Mason",
+  "po_number": "PO-T116",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 71.41,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "Server Rack 42U",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 53.37
+    },
+    {
+      "item_name": "A4 Paper Ream 500 sheets",
+      "quantity": 4,
+      "unit_price": 4.51
     }
   ]
 }
 ```
+Hope this helps!
 
 ---
 
 ### Document 117 (PO)
 
-**Input:**
-PO Request
-To: Global Logistics
-From: Sigma Store
-ID: T-PO-117
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
+Certainly! I have extracted the fields:
 
-```json
 {
-  "buyer": "Sigma Store",
-  "supplier": "Global Logistics",
-  "date": "2024-03-26",
+  "buyer": "Ford Motor Company",
+  "supplier": "Dell Technologies",
+  "po_number": "PO-T117",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 1157.82,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "Cat6 Cable 50ft",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 1092.44
+    },
+    {
+      "item_name": "Server Rack 42U",
+      "quantity": 4,
+      "unit_price": 16.34
     }
-  ],
-  "PO_Number": "T-PO-117"
+  ]
 }
-```
 
 ---
 
 ### Document 118 (PO)
 
-**Input:**
-PO Request
-To: Apex Software
-From: Cloud Nine
-ID: T-PO-118
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
-Certainly! Here is the extracted information in JSON format:
-
 ```json
 {
-  "buyer": "Cloud Nine",
-  "supplier": "Apex Software",
-  "po_number": "T-PO-118",
-  "date": "2024-03-26",
+  "buyer": "Target Corp",
+  "supplier": "Staples",
+  "po_number": "PO-T118",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total_amount": 267.06,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "Ballpoint Pens (Box of 50)",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 230.33
+    },
+    {
+      "item_name": "Server Rack 42U",
+      "quantity": 4,
+      "unit_price": 9.18
     }
   ]
 }
@@ -610,66 +546,63 @@ Certainly! Here is the extracted information in JSON format:
 
 ### Document 119 (PO)
 
-**Input:**
-PO Request
-To: Zenith Health
-From: Bright Future
-ID: T-PO-119
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
+Here is the requested JSON format:
+```json
 {
-  "buyer": "Bright Future",
-  "supplier": "Zenith Health",
-  "po_number": "T-PO-119",
-  "date": "2024-03-26",
+  "buyer": "Ford Motor Company",
+  "supplier": "Iron Mountain",
+  "po_number": "PO-T119",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 784.25,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "Cat6 Cable 50ft",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 671.51
+    },
+    {
+      "item_name": "UPS Battery Backup",
+      "quantity": 4,
+      "unit_price": 28.18
     }
   ]
 }
+```
+Hope this helps!
 
 ---
 
 ### Document 120 (PO)
 
-**Input:**
-PO Request
-To: Nexus Dynamics
-From: Delta Services
-ID: T-PO-120
-Date: 2024-03-26
-Total Order: 500.00 USD
-Asset: 1 x Server x 500.00
-
 **Response:**
+Here is the requested JSON format:
 ```json
 {
-  "buyer": "Delta Services",
-  "supplier": "Nexus Dynamics",
-  "date": "2024-03-26",
+  "buyer": "Home Depot",
+  "supplier": "Samsung Electronics",
+  "po_number": "PO-T120",
+  "date": "2024-03-12",
   "delivery_date": null,
-  "currency": "USD",
-  "total": 500.0,
+  "currency": "EUR",
+  "total": 745.13,
   "items": [
     {
-      "item_name": "Server",
+      "item_name": "A4 Paper Ream 500 sheets",
       "quantity": 1,
-      "unit_price": 500.0
+      "unit_price": 668.47
+    },
+    {
+      "item_name": "ThinkPad T14",
+      "quantity": 4,
+      "unit_price": 19.16
     }
-  ],
-  "PO_Number": "T-PO-120"
+  ]
 }
 ```
+Hope this helps!
 
 ---
-
 
