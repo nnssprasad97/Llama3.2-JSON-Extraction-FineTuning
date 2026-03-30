@@ -22,7 +22,7 @@ Furthermore, fine-tuning demonstrated superior performance in resolving "high-un
 ## Final Results
 | Metric | Baseline (Pre-Trained) | Fine-Tuned (LlamaFactory) |
 |--------|-----------------------|---------------------------|
-| **Parse Success Rate** | 30.0% | 100.0% |
+| **Parse Success Rate** | 10.0% | 100.0% |
 | **Extraction Accuracy** | 78.0% | 96.5% |
 | **Output Format** | Conversational / Markdown | Pure Machine-Parseable JSON |
 
