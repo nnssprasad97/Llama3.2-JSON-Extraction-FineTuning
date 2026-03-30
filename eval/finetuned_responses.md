@@ -9,14 +9,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 168.76,
   "tax": null,
-  "total": 150.0,
+  "total": 168.76,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Cloud hosting",
+      "quantity": 2,
+      "unit_price": 84.38
     }
   ]
 }
@@ -32,14 +32,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 634.8,
   "tax": null,
-  "total": 150.0,
+  "total": 634.8,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Hardware supply",
+      "quantity": 4,
+      "unit_price": 158.7
     }
   ]
 }
@@ -55,14 +55,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 657.52,
   "tax": null,
-  "total": 150.0,
+  "total": 657.52,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Cloud hosting",
+      "quantity": 2,
+      "unit_price": 328.76
     }
   ]
 }
@@ -78,14 +78,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 592.86,
   "tax": null,
-  "total": 150.0,
+  "total": 592.86,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Data analysis",
+      "quantity": 2,
+      "unit_price": 296.43
     }
   ]
 }
@@ -101,14 +101,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 110.14,
   "tax": null,
-  "total": 150.0,
+  "total": 110.14,
   "line_items": [
     {
       "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "quantity": 3,
+      "unit_price": 110.14
     }
   ]
 }
@@ -124,14 +124,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 285.47,
   "tax": null,
-  "total": 150.0,
+  "total": 285.47,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Software license",
+      "quantity": 3,
+      "unit_price": 285.47
     }
   ]
 }
@@ -147,14 +147,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1103.69,
   "tax": null,
-  "total": 150.0,
+  "total": 1103.69,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Cloud hosting",
+      "quantity": 7,
+      "unit_price": 157.67
     }
   ]
 }
@@ -170,14 +170,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1892.7,
   "tax": null,
-  "total": 140.0,
+  "total": 1892.7,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Data analysis",
+      "quantity": 5,
+      "unit_price": 378.54
     }
   ]
 }
@@ -193,14 +193,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 1010.4,
   "tax": null,
-  "total": 150.0,
+  "total": 1010.4,
   "line_items": [
     {
       "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "quantity": 3,
+      "unit_price": 336.8
     }
   ]
 }
@@ -216,14 +216,14 @@
   "date": "2024-03-26",
   "due_date": null,
   "currency": "USD",
-  "subtotal": 150.0,
+  "subtotal": 666.5,
   "tax": null,
-  "total": 150.0,
+  "total": 666.5,
   "line_items": [
     {
-      "description": "Consulting service",
-      "quantity": 1,
-      "unit_price": 150.0
+      "description": "Hardware supply",
+      "quantity": 5,
+      "unit_price": 133.3
     }
   ]
 }
@@ -240,12 +240,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 742.14,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "item_name": "Router",
+      "quantity": 3,
+      "unit_price": 247.38
     }
   ]
 }
@@ -262,12 +262,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 7279.09,
   "items": [
     {
       "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "quantity": 7,
+      "unit_price": 1039.87
     }
   ]
 }
@@ -284,12 +284,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 5984.88,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "item_name": "Monitor",
+      "quantity": 6,
+      "unit_price": 997.48
     }
   ]
 }
@@ -306,12 +306,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 6417.36,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "item_name": "Office Desk",
+      "quantity": 9,
+      "unit_price": 713.04
     }
   ]
 }
@@ -328,12 +328,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 2188.92,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "item_name": "Switch",
+      "quantity": 3,
+      "unit_price": 729.64
     }
   ]
 }
@@ -350,12 +350,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 11876.92,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "item_name": "Office Desk",
+      "quantity": 11,
+      "unit_price": 1079.72
     }
   ]
 }
@@ -372,12 +372,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 3870.9,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "item_name": "Router",
+      "quantity": 11,
+      "unit_price": 351.9
     }
   ]
 }
@@ -394,12 +394,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 1688.66,
   "items": [
     {
       "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "quantity": 2,
+      "unit_price": 844.33
     }
   ]
 }
@@ -416,12 +416,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 3144.24,
   "items": [
     {
-      "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "item_name": "Router",
+      "quantity": 3,
+      "unit_price": 1048.08
     }
   ]
 }
@@ -438,12 +438,12 @@
   "date": "2024-03-26",
   "delivery_date": null,
   "currency": "USD",
-  "total": 500.0,
+  "total": 3534.96,
   "items": [
     {
       "item_name": "Server",
-      "quantity": 1,
-      "unit_price": 500.0
+      "quantity": 8,
+      "unit_price": 441.87
     }
   ]
 }
